@@ -2,9 +2,7 @@
 on: push
 name: Build and deploy GH Pages
 permissions:
-  contents: read
-  actions: write
-  packages: write
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest
