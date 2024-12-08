@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://stgeorgeslodge242.github.io/sitemap.xml
