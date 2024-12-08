@@ -1,0 +1,22 @@
+# The URL the site will be built for
+base_url = "https://stgeorges242.co.uk"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+# Put all your custom variables here
+
+meetings = [
+    {month = "January 2025", date = "Friday 4th", meeting = "Third Degree"},
+    {month = "February 2025", date = "Friday 7th", meeting = "First Degree"},
+    {month = "March 2025", date = "Friday 7th", meeting = "Third Degree"},
+]

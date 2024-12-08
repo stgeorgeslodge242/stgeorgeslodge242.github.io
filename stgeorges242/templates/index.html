@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col align-self-center">
+        <br/>
+        <br/>
+        <hr style="max-width:100px;margin-right:auto;margin-left:auto;">
+    </div>
+</div>
+<div class="row" id="index-page-links">
+    <div class="col" style="text-align:center;">
+        <a href="history">
+            <img src="{{ get_url(path='/history.jpg') }}" alt="St George's Lodge 242" class="img-fluid" style="width:150px">
+            <br/>
+            <br/>
+            <h2>History</h2>
+            Consecrated in 1780, and still going
+        </a>
+    </div>
+    <div class="col" style="text-align:center;">
+        <a href="meetings">
+            <img src="{{ get_url(path='/Meetings.jpg') }}" alt="St George's Lodge 242" class="img-fluid" style="width:150px">
+            <br/>
+            <br/>
+            <h2>Meetings</h2>
+            Meetings commence at 6:45pm prompt. Masonic Hall, Priory Place, Doncaster
+        </a>
+    </div>
+</div>
+<div class="row">
+    <div class="col align-self-center">
+        <br/>
+        <hr style="max-width:100px;margin-right:auto;margin-left:auto;">
+    </div>
+</div>
+<div class="row">
+    <div class="col" style="text-align:center;">
+        <br/>
+        <br/>
+        <h2>St Georges Lodge No. 242</h2>
+        St Georges Lodge is situated in the city of Doncaster, South Yorkshire. <br/>
+        This old Lodge of Freemasons dates back to 1780 and has a unique and history.
+    </div>
+</div>
+<div class="row">
+    <div class="col align-self-center">
+        <br/>
+        <hr style="max-width:100px;margin-right:auto;margin-left:auto;">
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <h2 style="text-align:center;">Visit Us</h2>
+        <hr style="max-width:100px;margin-right:auto;margin-left:auto;">
+        <i class="fa fa-map-marker"> Masonic Hall, Priory Place, Doncaster, DN1 1BZ</i><br/>
+        <i class="fa fa-envelope-square"> secretary.stgeorges242@gmail.com</i>
+    </div>
+    <div class="col" style="text-align:center;">
+        <iframe src="https://www.google.com/maps/embed/v1/place?q=st+georged+lodge+242&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="622" height="300"></iframe>
+    </div>
+</div>
+{% endblock content %}
