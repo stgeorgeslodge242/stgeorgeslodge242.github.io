@@ -16,7 +16,7 @@ highlight_code = false
 # Put all your custom variables here
 
 meetings = [
-    {month = "January 2025", date = "Friday 4th", meeting = "Third Degree"},
-    {month = "February 2025", date = "Friday 7th", meeting = "First Degree"},
-    {month = "March 2025", date = "Friday 7th", meeting = "Third Degree"},
+    {month = "April 2025", date = "Friday 4th", meeting = "Second Degree (Past Masters)"},
+    {month = "May 2025", date = "Friday 2nd", meeting = "Installation"},
+    {month = "June 2025", date = "Friday 6th", meeting = "Second Degree"},
 ]
