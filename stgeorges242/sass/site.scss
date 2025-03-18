@@ -50,3 +50,9 @@ a:hover {
 a:active { 
     text-decoration: none; 
 }
+.honeypot-field {
+    display: none;
+}
+#name, #email, #phone, #organization {
+    width: 50%;
+}
