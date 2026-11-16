@@ -86,11 +86,22 @@
             if (thankYouMessage) {
               thankYouMessage.style.display = "block";
             }
+          } else {
+            showError(form);
           }
         })
         .catch((error) => {
           console.error('Error submitting the form:', error);
+          showError(form);
         });
+    }
+
+    function showError(form) {
+      const errorMessage = form.querySelector(".error_message");
+      if (errorMessage) {
+        errorMessage.style.display = "block";
+      }
+      enableAllButtons(form);
     }
   
     function loaded() {
@@ -106,6 +117,13 @@
       const buttons = form.querySelectorAll("button");
       buttons.forEach((button) => {
         button.disabled = true;
+      });
+    }
+
+    function enableAllButtons(form) {
+      const buttons = form.querySelectorAll("button");
+      buttons.forEach((button) => {
+        button.disabled = false;
       });
     }
   })();

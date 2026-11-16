@@ -1,7 +1,74 @@
 
 
+$navy: #13336E;
+$silver: #aeb4b9;
+$light-blue: #26bdf7;
+
+.header-banner {
+    position: relative;
+    width: 100%;
+}
+.header-image {
+    display: block;
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+.site-nav {
+    background-color: $navy;
+    font-family: "Merienda", cursive;
+    font-weight: 500;
+
+    .nav-link,
+    .navbar-toggler {
+        color: $silver;
+    }
+    .nav-link:hover,
+    .nav-link:focus {
+        color: #fff;
+    }
+}
+.site-footer {
+    background-color: $navy;
+    color: $light-blue;
+    margin-top: 2rem;
+    padding: 2.5rem 0;
+
+    .col-md {
+        padding: 0.5rem 0;
+    }
+    a {
+        color: $light-blue;
+    }
+    a:hover,
+    a:focus {
+        color: #fff;
+    }
+}
+.divider {
+    max-width: 100px;
+    margin: 2rem auto;
+}
+.page-content {
+    padding-top: 1.5rem;
+
+    table {
+        width: auto;
+        min-width: 50%;
+        margin-bottom: 1rem;
+        border-collapse: collapse;
+
+        th, td {
+            padding: 0.5rem 1rem;
+            border-bottom: 1px solid #dee2e6;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+    }
+}
 #header-title {
-    position: absolute; 
+    position: absolute;
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
@@ -21,14 +88,6 @@ table {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    color: #aeb4b9;
-}
-#merienda {
-    font-family: "Merienda", cursive;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    color: #aeb4b9;
 }
 #index-page-links a { 
     text-decoration: none; 
@@ -53,6 +112,8 @@ a:active {
 .honeypot-field {
     display: none;
 }
-#name, #email, #phone, #organization {
-    width: 50%;
+@media (min-width: 768px) {
+    #name, #email, #phone, #organisation {
+        width: 50%;
+    }
 }
