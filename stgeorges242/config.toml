@@ -1,6 +1,9 @@
 # The URL the site will be built for
 base_url = "https://stgeorgeslodge242.github.io"
 
+title = "St George's Lodge 242"
+description = "The oldest and finest freemasonry lodge in Doncaster"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -8,15 +11,17 @@ compile_sass = true
 build_search_index = false
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = false
+# Syntax highlighting is off by default in Zola 0.23+ (the old `highlight_code` key was removed)
 
 [extra]
 # Put all your custom variables here
 
 meetings = [
-    {month = "April 2025", date = "Friday 4th", meeting = "Second Degree (Past Masters)"},
-    {month = "May 2025", date = "Friday 2nd", meeting = "Installation"},
-    {month = "June 2025", date = "Friday 6th", meeting = "Second Degree"},
+    {month = "December 2026", date = "Friday 4th", meeting = "Second Degree"},
+    {month = "January 2027", date = "Friday 8th", meeting = "First Degree"},
+    {month = "February 2027", date = "Friday 5th", meeting = "First Degree"},
+    {month = "March 2027", date = "Friday 5th", meeting = "First Degree"},
+    {month = "April 2027", date = "Friday 2nd", meeting = "Third Degree"},
+    {month = "May 2027", date = "Saturday 8th", meeting = "Installation"},
+    {month = "June 2027", date = "Friday 4th", meeting = "Second Degree"},
 ]
